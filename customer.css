@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+  background-color: #150E56;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  float: right;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #150E56!important;
+
+}
+
+.nav-link{
+    float: right;
+    color: #150E56!important;
+
+}
+
+.nav-link:hover{
+    background-color: #51C4D3;
+}
+
+#main
+{
+	text-align: center;
+    background-image: url("https://cmscollege.ac.in/wp-content/uploads/2018/08/banking.jpg");
+    background-size:100% 100%;
+
+}
+my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: #3a3b3d!important;
+    color: #fbff00!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 15px;
+}
+
+.btn-info:hover{
+    background-color: #004ade!important;
+}

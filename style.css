@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-bar {
+    background-color: #150E56;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    float: right;
+  }
+
+  .nav-link:hover {
+    background-color: #51C4D3;
+  }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+  }
+
+  img {
+  border-radius: 15px;
+}
+
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  .navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+  }
+
+  .fa-bars {
+    color: #fff;
+    font-size: 30p !important;
+  }
+  .navbar-toggler {
+    outline: none !important;
+  }
+
+  /*---banner section--*/
+#main {
+  text-align: center;
+  background-color: #150E56;
+  color: #FFCC29;
+  padding-top: 5%;
+}
+.container h1 img {
+  padding-bottom: 15px;
+  size: 20px;
+}
+
+/*---service section---*/
+.main {
+	color: #511281;
+  border: 1px solid black;
+  background-color: #7ded05;
+  padding: 10px;
+  border-radius: 45px
+}
+
+#home_button {
+	color: #fc0303;
+  text-shadow: 2px 2px #fffb05;
+  padding: 20px;
+}
+
+#features1 {
+  text-align: center;
+  padding: 10% 15%;
+}
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background-image: url("https://cmscollege.ac.in/wp-content/uploads/2018/08/banking.jpg");
+  background-size:100% 100%;
+}
+.features1 h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.features h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.title::before {
+  content: "";
+  background: #db0925;
+  height: 5px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
+}
+.title::after {
+  content: "";
+  background: #db0925;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translatey(8px);
+}
+#features .btn-primary {
+  box-shadow: none;
+  padding: 10px 25px;
+  border: none;
+  align-content: center;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#action {
+  background-color: #150E56;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffaa00;
+}
+
+.main {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 10px 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#b1{
+    background-color: #0826cf;
+    padding: 7px;
+    color: #f0fc00;
+    margin-top: 30px;
+}
+
+.panel{
+    padding: 15px;
+}
+
+.w3-card{
+    width:100%;
+    height:100px;
+    padding: 20px;
+
+}
+
+.container{
+    padding: 15px;
+}
+h2 {
+  padding: 15px;
+  background-color: lightgrey;
+  border: 5px solid blue;
+  padding: 5px;
+  margin: 20px;
+}
+
+h3{
+  background-color: #00fcd2;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+h4{
+  padding: 20px;
+  border: 5px solid grey;
+}
+
+/* footer */
+#footer {
+  background-color: #150E56;
+  color: #fff;
+  padding: 4% 25%;
+  text-align: center;
+}
