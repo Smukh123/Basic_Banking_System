@@ -23,7 +23,7 @@ View all Customers.
 No Login Page. No User Creation. Only transfer of money
 between multiple users.
 
-## Features of the App:
+## Features:
 We can view all customers' details, transfer money and can view the transaction history for the same.
 
 ### In This Project, I have used:
